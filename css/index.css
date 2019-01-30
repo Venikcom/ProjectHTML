@@ -51,13 +51,13 @@ header .menu li a:hover {
     text-decoration: underline;
 }
     
-@media (min-width: 500px) {
+@media (min-width: 600px) {
 header .banner { 
         display: flex ;
+        font-size: 1rem;
+        margin: 0 auto;
 }
-header .banner .name {
-    margin: 0 auto;
-}
+
 
 header .banner {
         margin: 24px 10px;
