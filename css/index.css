@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+:root {
+    font-family: 'Raleway', sans-serif;
+    --main-color: black;
+    --accent-color: white;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+header .banner {
+    background-image: url(../img/food.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .banner {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 4rem;
+    text-align: center;
+    margin: 24px auto;
+    color: #f44242
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0; 
+}
+
+header .menu li {
+    list-style-type: none;
+}
+
+header .menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+header .menu li a:hover {
+    text-decoration: underline;
+}
+    
+@media (min-width: 600px) {
+    header nav { display: flex;
+}
+
+header .banner {
+        margin: 24px 10px;
+}
+
+header nav .menu {
+    align-items: center;
+    flex: 1;
+}
+}
