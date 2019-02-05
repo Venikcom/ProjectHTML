@@ -8,8 +8,10 @@
 }
 
 body {
+    min-width: 300px;
     max-width: 980px;
     margin: auto;
+    justify-content: auto;
     background-color: #ffe2f1
 }
 header .banner {
@@ -24,9 +26,9 @@ header .banner {
 
 header .banner .name {
     font-family: 'Major Mono Display', monospace;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
-    margin: 24px auto;
+    margin: 0 auto;
     color: #f44242
     
 }
@@ -51,16 +53,24 @@ header .menu li a:hover {
     text-decoration: underline;
 }
     
-@media (min-width: 600px) {
-header .banner { 
+@media (max-width: 500px) {
+header .banner h1 { 
         display: flex ;
-        font-size: 1rem;
+        font-size: 2.75rem;
+        text-align: center;
         margin: 0 auto;
+        justify-content: center;
+        
 }
 
+header .baner p {
+    
+    font-size: 1rem;
+    margin: 0 auto;
+}
 
 header .banner {
-        margin: 24px 10px;
+        margin: 15px 10px;
 }
 
 header nav .menu {
