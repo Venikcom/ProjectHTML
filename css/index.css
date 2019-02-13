@@ -9,7 +9,7 @@
 
 body {
     min-width: 300px;
-    max-width: 980px;
+    max-width: 950px;
     margin: auto;
     justify-content: auto;
     background-color: rgb(255, 239, 250)
@@ -131,7 +131,7 @@ main #recipes .desserts .gingerbread_cupcakes img{
     align-items: center;
     justify-content: center;
     padding: 0.5em;
-    max-width: 100%;
+    width: 100%;
 }
 main #recipes .desserts .gooey_oreo_cookie_cookies{
     text-align: justify;
@@ -148,6 +148,7 @@ main #recipes .desserts .gooey_oreo_cookie_cookies img{
     align-items: center;
     justify-content: center;
     padding: 0.5em;
+    width: 100%;
     max-width: 100%;
 }
 main #feedback {
