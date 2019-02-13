@@ -11,10 +11,10 @@ body {
     min-width: 300px;
     max-width: 950px;
     margin: auto;
-    justify-content: auto;
     background-color: rgb(255, 239, 250)
 }
 header {
+    max-width: 950px;
     padding: 0.5em;
 }
 header .banner {
@@ -25,7 +25,7 @@ header .banner {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.5em;
+    padding: 0.1em;
     max-width: 100%;
 }
 
@@ -41,7 +41,7 @@ header .banner .name {
 header .menu {
     display: flex;
     justify-content: space-around;
-    padding: 0.25em; 
+    padding: 0.2em; 
 }
 
 header .menu li {
@@ -74,7 +74,7 @@ header .baner p {
 }
 
 header .banner {
-        margin: 15px 10px;
+    margin: 0 auto;
 }
 
 header nav .menu {
@@ -118,12 +118,12 @@ main #recipes .desserts{
 }
 main #recipes .desserts .gingerbread_cupcakes{
     text-align: justify;
-    font-size: 1.2em;
+    font-size: 1.15em;
     color: black;
 }
 main #recipes .desserts .gingerbread_cupcakes h3 {
     text-align: center;
-    font-size: 1.55em;
+    font-size: 1.23em;
     color: #770535;
 }
 main #recipes .desserts .gingerbread_cupcakes img{
@@ -135,12 +135,12 @@ main #recipes .desserts .gingerbread_cupcakes img{
 }
 main #recipes .desserts .gooey_oreo_cookie_cookies{
     text-align: justify;
-    font-size: 1.2em;
+    font-size: 1.15em;
     color: black;
 }
 main #recipes .desserts .gooey_oreo_cookie_cookies h3{
     text-align: center;
-    font-size: 1.55em;
+    font-size: 1.23em;
     color: #770535;
 }
 main #recipes .desserts .gooey_oreo_cookie_cookies img{
@@ -160,3 +160,4 @@ main #feedback h2{
     font-size: 1.75em;
     color: #770535;
 }
+
