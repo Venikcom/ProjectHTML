@@ -79,7 +79,7 @@ header .banner {
 
 header nav .menu {
     align-items: center;
-    flex: 1;
+    flex-wrap: wrap;
 }
 }
 
@@ -130,7 +130,6 @@ main #recipes .desserts .gingerbread_cupcakes img{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.5em;
     width: 100%;
 }
 main #recipes .desserts .gooey_oreo_cookie_cookies{
@@ -147,7 +146,6 @@ main #recipes .desserts .gooey_oreo_cookie_cookies img{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.5em;
     width: 100%;
     max-width: 100%;
 }
