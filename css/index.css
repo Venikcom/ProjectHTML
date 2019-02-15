@@ -148,6 +148,7 @@ main #recipes .desserts .gooey_oreo_cookie_cookies img{
     justify-content: center;
     width: 100%;
     max-width: 100%;
+    padding-bottom:15px
 }
 main #feedback {
     display: block;
@@ -261,11 +262,32 @@ input[type=submit] {
   cursor: pointer;
 }
 input[type=submit]:hover {
-  background-color: #e81452;
+  background-color: #e81452d9;
 }
 .container {
   border-radius: 3px;
-  background-color: #ec8383;
+  background-color: #ec83835e;
   padding: 10px;
+}
+}
+footer #contacts {
+  font-size:18px;
+  width: 100%;
+  background-color: #ff000033;
+  color: #770535;
+  text-align: center;
+}
+footer #contacts img{
+  width:40px
+  
+}
+
+@media (max-width: 450px) {
+  footer #contacts {
+  font-size:15px;
+  width: 100%;
+  background-color: #ff000033;
+  color: #770535;
+  text-align: center;
 }
 }
