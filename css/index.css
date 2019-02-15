@@ -196,7 +196,7 @@ input[type=submit]:hover {
   background-color: #e81452;
 }
 .container {
-  border-radius: 5px;
+  border-radius: 15px;
   background-color: #ec83836e;
   padding: 20px;
 }
@@ -279,7 +279,7 @@ input[type=submit]:hover {
   background-color: #e81452d9;
 }
 .container {
-  border-radius: 3px;
+  border-radius: 15px;
   background-color: #ec83835e;
   padding: 10px;
 }
@@ -303,7 +303,7 @@ footer #contacts a{
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    grig-wrap: wrap;
+    
 }
 footer #contacts a:hover{
     text-decoration: underline;
