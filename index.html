@@ -15,6 +15,7 @@
                     <p>dessert blog </p>
                 </div>
             </div>
+            
             <nav>
                 <ul class="menu">
                     <li>
@@ -32,6 +33,7 @@
                 </ul>
             </nav>
         </header>
+        
         <main>
             <section id="about_me">
                 <h2>About Me</h2>
@@ -39,10 +41,12 @@
                Once Upon A Time, In July 2015, after indulging in various other Blogs as a way to read up on the latest
                goings on in the world,  I decided to join in on one very boring evening, and “Venikcom” was born.</p>
             </section>
+            
             <section id="recipes">
                 <div class="recipes">
                     <h2>Desserts</h2>
                     <div class="desserts">
+                        
                         <article class="gingerbread_cupcakes">
                             <h2>Gingerbread Cupcakess </h2>
                             <p>Serving: Makes 12 cupcakes</p>
@@ -102,6 +106,7 @@
                                 <img src="img/gb_cupcakes1.jpg" alt="Gingerbread cupcake closer">
                             </div>
                         </article>
+                        
                         <article class="gooey_oreo_cookie_cookies">
                             <h2>Gooey Oreo Cookie Cookies </h2>
                             <p>PREP TIME: 20 min || COOK TIME: 10 min ||  DIFFICULTY: Easy</p>
@@ -144,24 +149,27 @@
                                 <img src="img/cookie_mount.jpg" alt="mount of cookies">
                             </div>
                         </article>
+                        
                     </div>
                 </div>
             </section>
+            
             <section id="feedback">
-                <div class="container">
+                <div class="container" >
                     <h2>Feedback</h2>
-                    <form method="POST" action="https://formspree.io/kate.venik.i@gmail.com">
+                    <form method="POST" action="https://formspree.io/kate.venik.i@gmail.com" class="rf">
                         <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <input type="text" id="fname" class="rf" name="firstname" placeholder="Your name..">
                         <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <input type="text" id="lname"  class="rf" name="lastname" placeholder="Your last name..">
                         <label for="subject">Comment</label>
-                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                        <input type="submit" value="Submit">
+                        <textarea id="subject" name="subject" class="rf" placeholder="Write something.." style="height:200px"></textarea>
+                        <input type="submit" class="btn_submit disabled" value="Send">
                     </form>
                 </div>
             </section>
         </main>
+        
         <footer>
             <section id="contacts">
                 <div class="contacts">
@@ -175,7 +183,8 @@
                 </div>
             </section>
         </footer>
+        
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="js/smooth-scroll.js"></script>
+        <script src="js/index.js"></script>
     </body>
 </html>

@@ -184,8 +184,6 @@ input[type=text], select, textarea {
   margin-bottom: 16px; 
   resize: vertical;
 }
-
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: #ff0000;
   color: #ffffff;
@@ -199,9 +197,10 @@ input[type=submit]:hover {
 }
 .container {
   border-radius: 5px;
-  background-color: #ec8383;
+  background-color: #ec83836e;
   padding: 20px;
 }
+
 
 @media (max-width: 450px) {
   main #about_me h2 {
@@ -285,6 +284,7 @@ input[type=submit]:hover {
   padding: 10px;
 }
 }
+
 footer #contacts {
   font-size:18px;
   width: 100%;
@@ -292,7 +292,6 @@ footer #contacts {
   color: #770535;
   text-align: center;
   border-radius:20px
-
 }
 footer #contacts img{
   width:40px
