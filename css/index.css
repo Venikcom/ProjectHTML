@@ -159,10 +159,10 @@ main #feedback h2{
     color: #770535;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   main #about_me h2 {
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #770535;
 }
 main #about_me p {
@@ -176,7 +176,7 @@ main #recipes .recipes {
 }
 main #recipes .recipes h2{
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
     color:  #660000;
 }
 main #recipes .desserts{
@@ -186,28 +186,22 @@ main #recipes .desserts{
 }
 main #recipes .desserts .gingerbread_cupcakes{
     text-align: justify;
-    font-size: 0.75em;
+    font-size: 0.85em;
     color: black;
 }
 main #recipes .desserts .gingerbread_cupcakes h3 {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.1em;
     color: #770535;
-}
-main #recipes .desserts .gingerbread_cupcakes img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
 }
 main #recipes .desserts .gooey_oreo_cookie_cookies{
     text-align: justify;
-    font-size: 1.15em;
+    font-size: 0.85em;
     color: black;
 }
 main #recipes .desserts .gooey_oreo_cookie_cookies h3{
     text-align: center;
-    font-size: 1em;
+    font-size: 1.1em;
     color: #770535;
 }
 main #feedback {
@@ -220,21 +214,3 @@ main #feedback h2{
     color: #770535;
 }  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
