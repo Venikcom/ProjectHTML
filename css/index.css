@@ -273,21 +273,50 @@ input[type=submit]:hover {
 footer #contacts {
   font-size:18px;
   width: 100%;
-  background-color: #ff000033;
+  background-color: #ffe6e6;
   color: #770535;
   text-align: center;
+
 }
 footer #contacts img{
   width:40px
-  
+}
+footer #contacts a{
+    display: grid;
+    text-align:center;
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    grig-wrap: wrap;
+}
+footer #contacts a:hover{
+    text-decoration: underline;
 }
 
 @media (max-width: 450px) {
-  footer #contacts {
-  font-size:15px;
+ footer #contacts {
+  font-size:14px;
   width: 100%;
-  background-color: #ff000033;
+  background-color: #ffe6e6;
   color: #770535;
   text-align: center;
+
+}
+footer #contacts img{
+  width:30px;
+  padding: 5px;
+}
+footer #contacts a{
+    display: grid;
+    text-align:center;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    grig-wrap: wrap;
+}
+footer #contacts a:hover{
+    text-decoration: underline;
 }
 }
